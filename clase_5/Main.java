@@ -9,10 +9,10 @@ public class Main {
 
         //Calculadora de edad de perro
         /*
-        System.out.println("Give me your Human age, I'll tell you your dog age: ");
+        System.out.println("Tell me how old your dog is, and I'll tell you how old he'd be if he were human: ");
         int age = lector.nextInt();
         Integer dogAge = age * 7;
-        System.out.println("You are " + age  + " years old !" + " but if you were a dog you would have: " + dogAge + " years old !");
+        System.out.println("If your dog were a human being, he would have: " + dogAge + " years old !");
         */
 
         //Convertir millas a kilometro
