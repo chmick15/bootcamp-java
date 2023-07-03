@@ -48,6 +48,7 @@ public class Main {
          */
 
         //Adivina el número
+        /*
         System.out.println("Try to guess the number between 1 & 50");
         Integer randomNumber = (int)(Math.random() * 10 + 1);
         int guess = lector.nextInt();
@@ -61,5 +62,40 @@ public class Main {
             guess = lector.nextInt();
         }
         System.out.println("You won !");
+         */
+
+        //Carga 3 números y mostrar cual es el mayor y cual es el menor
+        /*
+        System.out.println("Introduce three numbers and I'll tell you which one is the biggest, and smallest one");
+        System.out.println("Introduce the first one: ");
+        Integer num1 = lector.nextInt();
+        System.out.println("Introduce the second one: ");
+        Integer num2 = lector.nextInt();
+        System.out.println("Introduce the third one: ");
+        Integer num3 = lector.nextInt();
+        if(num1 > num2 && num1 > num3 && num2 > num3){
+            System.out.println("The biggest number is " + num1);
+            System.out.println("The smallest number is " + num3);
+        } else if (num1 > num2 && num1 > num3 && num2 < num3) {
+            System.out.println("The biggest number is " + num1);
+            System.out.println("The smallest number is " + num2);
+        } else if (num2 > num1 && num2 > num3 && num1 > num3) {
+            System.out.println("The biggest number is " + num2);
+            System.out.println("The smallest number is " + num3);
+        } else if (num2 > num1 && num2 > num3 && num1 < num3) {
+            System.out.println("The biggest number is " + num2);
+            System.out.println("The smallest number is " + num1);
+        } else if (num3 > num1 && num3 > num2 && num1 > num2) {
+            System.out.println("The biggest number is " + num3);
+            System.out.println("The smallest number is " + num2);
+        } else if (num3 > num1 && num3 > num2 && num1 < num2) {
+            System.out.println("The biggest number is " + num3);
+            System.out.println("The smallest number is " + num1);
+        } else if (num1 == num2 || num1 == num3 || num2 == num3){
+            System.out.println("You've got twice the same number");
+        }
+        */
+
+
     }
 }
