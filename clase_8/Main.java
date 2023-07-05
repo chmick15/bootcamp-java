@@ -6,6 +6,8 @@ public class Main {
         calcularAreaRectangulo(10, 402);
         calcularAreaTriangulo(24,12);
         System.out.println(generatePassword());
+        String contrasena = generatePassword();
+        System.out.println(contrasena);
     }
 
     private static String saludar(){
